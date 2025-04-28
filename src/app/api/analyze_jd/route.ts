@@ -1,4 +1,3 @@
-// For App Router: app/api/analyze-jd/route.ts
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
@@ -19,7 +18,7 @@ export async function POST(request: Request) {
     }
 
     const completion = await openai.chat.completions.create({
-      model: "gpt-4o", // or another appropriate model
+      model: "gpt-4o",
       messages: [
         {
           role: "system",
