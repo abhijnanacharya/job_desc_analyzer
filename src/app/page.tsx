@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gray-950 text-gray-200">
       <header className="w-full text-center">
-        <h1 className="text-2xl font-bold text-blue-400">Get a Job!!!</h1>
+        <h1 className="text-4xl font-bold text-blue-400">Am I Relevant?</h1>
       </header>
 
       <main className="w-full grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -314,7 +314,15 @@ export default function Home() {
       </main>
 
       <footer className="w-full text-center text-gray-500 text-sm">
-        &copy; 2025 JD Analysis Tool
+        © 2025 Made with ❤️ by{" "}
+        <a
+          href="https://www.linkedin.com/in/abhijnanacharya"
+          className="text-blue-400 hover:text-blue-300"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Abhijnan Acharya
+        </a>
       </footer>
     </div>
   );
